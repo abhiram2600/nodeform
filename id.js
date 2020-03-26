@@ -33,4 +33,4 @@ app.post('/submit', urlencodedParser, (req, res) => {
     res.send(`welcome ${na} your number is ${nu} `)
 })
 
-app.listen(3000)
+app.listen(process.env.PORT)
